@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Victor Oyedeji | Video Editor</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 25px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #222;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #aaa;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      min-height: 80vh;
+      padding: 100px 8%;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-content {
+      max-width: 800px;
+    }
+
+    .tag {
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(50px, 10vw, 100px);
+      line-height: 0.95;
+      margin-bottom: 30px;
+    }
+
+    h1 span {
+      color: #777;
+    }
+
+    .hero p {
+      color: #aaa;
+      max-width: 600px;
+      font-size: 18px;
+      margin-bottom: 35px;
+    }
+
+    .button {
+      display: inline-block;
+      background: white;
+      color: black;
+      padding: 14px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 3px;
+    }
+
+    section {
+      padding: 80px 8%;
+      border-top: 1px solid #222;
+    }
+
+    .section-title {
+      font-size: 40px;
+      margin-bottom: 40px;
+    }
+
+    .about {
+      max-width: 800px;
+      color: #aaa;
+      font-size: 18px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .project {
+      background: #151515;
+      padding: 25px;
+      border: 1px solid #222;
+      min-height: 220px;
+    }
+
+    .project-number {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    .project h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      color: #888;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .service {
+      padding: 25px;
+      border: 1px solid #222;
+    }
+
+    .service h3 {
+      margin-bottom: 10px;
+    }
+
+    .service p {
+      color: #888;
+    }
+
+    .contact {
+      text-align: center;
+      padding: 100px 8%;
+    }
+
+    .contact h2 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    footer {
+      padding: 30px 8%;
+      text-align: center;
+      color: #555;
+      border-top: 1px solid #222;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        display: none;
+      }
+
+      .hero {
+        padding-top: 70px;
+      }
+
+      section {
+        padding: 60px 7%;
+      }
+
+      .contact h2 {
+        font-size: 38px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">VICTOR OYEDEJI</div>
+
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <div class="tag">Video Editor • Visual Storyteller</div>
+
+        <h1>
+          I EDIT<br>
+          <span>STORIES.</span>
+        </h1>
+
+        <p>
+          I transform raw footage into engaging, polished videos
+          designed to capture attention and tell compelling stories.
+        </p>
+
+        <a href="#work" class="button">
+          VIEW MY WORK
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <section id="work">
+
+      <h2 class="section-title">Featured Work</h2>
+
+      <div class="projects">
+
+        <div class="project">
+          <div class="project-number">01 / YOUTUBE</div>
+          <h3>YouTube Editing</h3>
+          <p>
+            Long-form video editing, storytelling, pacing,
+            B-roll, captions and sound design.
+          </p>
+        </div>
+
+
+        <div class="project">
+          <div class="project-number">02 / SHORT-FORM</div>
+          <h3>Short-Form Content</h3>
+          <p>
+            Engaging edits for TikTok, Instagram Reels
+            and YouTube Shorts.
+          </p>
+        </div>
+
+
+        <div class="project">
+          <div class="project-number">03 / COMMERCIAL</div>
+          <h3>Promotional Videos</h3>
+          <p>
+            Creative promotional content designed to
+            communicate products and services.
+          </p>
+        </div>
+
+
+        <div class="project">
+          <div class="project-number">04 / MOTION</div>
+          <h3>Motion Graphics</h3>
+          <p>
+            Dynamic text, transitions, visual effects
+            and animated elements.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="about">
+
+      <h2 class="section-title">About Me</h2>
+
+      <p class="about">
+        I'm Victor Oyedeji, a video editor focused on turning
+        raw footage into content that feels intentional, engaging
+        and visually polished.
+
+        <br><br>
+
+        From short-form social content to long-form videos and
+        promotional campaigns, I focus on pacing, storytelling,
+        sound, visuals and the small details that make an edit work.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2 class="section-title">What I Do</h2>
+
+      <div class="services">
+
+        <div class="service">
+          <h3>🎬 Video Editing</h3>
+          <p>
+            Clean, engaging edits for different types of content.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>📱 Social Content</h3>
+          <p>
+            Short-form videos built for social media attention.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>🎨 Motion Graphics</h3>
+          <p>
+            Text animation, graphics and visual effects.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>🔊 Sound Design</h3>
+          <p>
+            Audio cleanup, music, sound effects and mixing.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="contact" class="contact">
+
+      <h2>LET'S WORK<br>TOGETHER.</h2>
+
+      <p>
+        Have a video that needs to come to life?
+      </p>
+
+      <a href="mailto:your@email.com" class="button">
+        GET IN TOUCH
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    © 2026 Victor Oyedeji. All rights reserved.
+  </footer>
+
+</body>
+    </html>
